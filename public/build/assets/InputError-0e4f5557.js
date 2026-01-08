@@ -1,0 +1,1 @@
+import{i as s,K as t,o as r,d as o,a,t as n}from"./app-e263ac0f.js";const l={class:"alert alert-danger",role:"alert"},p={__name:"InputError",props:{message:String},setup(e){return(c,i)=>s((r(),o("div",null,[a("div",l,[a("p",null,n(e.message),1)])],512)),[[t,e.message]])}};export{p as _};

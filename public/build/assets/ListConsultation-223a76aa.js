@@ -1,0 +1,1 @@
+import"./vue3-easy-data-table.es-1512132d.js";import"./app-e263ac0f.js";const a={__name:"ListConsultation",props:{items:Object,headers:Object,rowPerPage:Number},setup(e){return(t,r)=>null}};export{a as default};

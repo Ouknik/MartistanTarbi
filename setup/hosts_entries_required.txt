@@ -1,0 +1,27 @@
+# =============================================================================
+# إدخالات ملف hosts المطلوبة لـ Maristan SaaS
+# =============================================================================
+# 
+# لإضافة هذه الإدخالات:
+# 1. افتح Notepad كـ Administrator
+# 2. افتح الملف: C:\Windows\System32\drivers\etc\hosts
+# 3. أضف الأسطر التالية في نهاية الملف
+# 4. احفظ الملف
+#
+# أو شغل الأمر التالي في PowerShell كـ Administrator:
+# Get-Content "setup\hosts_entries_required.txt" | Add-Content "C:\Windows\System32\drivers\etc\hosts"
+# =============================================================================
+
+# Maristan SaaS - Central Domain
+127.0.0.1       maristan.local
+
+# Maristan SaaS - Tenant Domains (العيادات)
+127.0.0.1       khalid.maristan.local
+127.0.0.1       ouknik.maristan.local
+127.0.0.1       ista.maristan.local
+127.0.0.1       test.maristan.local
+127.0.0.1       test-clinic-full.maristan.local
+127.0.0.1       clinic-final-test.maristan.local
+
+# أضف أي عيادة جديدة هنا بنفس الصيغة:
+# 127.0.0.1       newclinic.maristan.local

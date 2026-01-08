@@ -1,0 +1,27 @@
+# ============================================================================
+# Windows Hosts File Entries for Maristan SaaS
+# ============================================================================
+#
+# افتح الملف التالي كـ Administrator:
+# C:\Windows\System32\drivers\etc\hosts
+#
+# وأضف هذه الأسطر في نهاية الملف:
+# ============================================================================
+
+# Maristan SaaS - Central Domain (SuperAdmin)
+127.0.0.1       maristan.local
+
+# Maristan SaaS - Tenant Subdomains (Clinics)
+127.0.0.1       khalid.maristan.local
+127.0.0.1       ouknik.maristan.local
+127.0.0.1       ista.maristan.local
+127.0.0.1       test.maristan.local
+127.0.0.1       test-clinic-full.maristan.local
+127.0.0.1       clinic-final-test.maristan.local
+127.0.0.1       demo.maristan.local
+
+# ============================================================================
+# ملاحظة مهمة:
+# Windows لا يدعم wildcards في ملف hosts
+# لذلك يجب إضافة كل subdomain يدوياً
+# ============================================================================

@@ -1,0 +1,1 @@
+import t from"./Form-827aaf8f.js";import{o as n,c as o}from"./app-e263ac0f.js";import"./SuperAdminLayout-931e23d9.js";const m={__name:"Edit",props:{plan:Object},setup(a){return(p,r)=>(n(),o(t,{plan:a.plan},null,8,["plan"]))}};export{m as default};
